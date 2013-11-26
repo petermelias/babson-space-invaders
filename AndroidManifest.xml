@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+ Copyright (c) 2012, Peter M. Elias <petermelias@gmail.com>
+ All rights reserved.
+
+ Software created for the exclusive and discretionary distribution right of
+ G. Shankar and his trustworthy Babson students
+
+ ***** The Super Simple Space Invaders for Android *****
+
+ *****     Designed for teaching Babson students   *****
+            about Android development and Java
+
+ A personal message to business students learning programming:
+
+ Software innovation is the creative blood of machines whose manufacturing 
+ techniques and mechanical capabilities evolve to accomodate the "brains" 
+ that our programs can instill within them. Understanding the paradigms, 
+ techniques and concepts that drive software will help any savvy business 
+ person employ the power of such applications to introduce new levels of 
+ efficiency, process management, and customer interfacing- regardless of 
+ the industry.
+ 
+ Though you may think of business now as a collection of skills such as Finance,
+ Accounting, or Marketing, you will find that a truly successful business is a 
+ living and growing entity that solves a unique problem using a meticulously crafted 
+ set of tools and processes managed by a perfect combination of motivated team members.
+
+ Machines have already begun, and will continue, to join the ranks of those team members.
+
+ Use your knowledge of programming and understanding of "intelligent" machines to
+ empower your future companies to become artfully crafted constructs of co-operative
+ machines all working in tandem to achieve your ultimate goal.
+
+ If you follow the trail back through our relatively short history as a species, 
+ you will find that computers and the technology leading up to them are the 
+ underpinning of all human progress.
+
+ Do not take their importance or understanding for granted.
+
+ Till then,
+ Peter M. Elias
+ May 13th, 2012
+
+ PS: Don't give up because it's hard; If you do, China wins.
+
+ -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.babson.sssi" android:versionCode="4" android:versionName="4.0.3">
+  <application android:label="Shankar Invaders" android:icon="@drawable/icon">
+    <activity android:name=".World">
+      <intent-filter>
+	<action android:name="android.intent.action.MAIN" />
+	<category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+  </application>
+</manifest>
