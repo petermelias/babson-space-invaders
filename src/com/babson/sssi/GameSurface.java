@@ -66,6 +66,7 @@ public class GameSurface extends SurfaceView implements SurfaceHolder.Callback
 	// This is automatically called when the surface is destroyed, we use this method to gracefully shut down our thread in case the user quits the game
 	public void surfaceDestroyed(SurfaceHolder holder) {
 		boolean shutdown = false;
+		thread.setRunState(false);
 		while(!shutdown) {
 			try {
 				thread.join();
